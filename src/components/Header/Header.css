@@ -1,0 +1,18 @@
+
+.header {
+    position: fixed; /* Page is pushed down by the height in Introduction.css, line 7 */
+    top: 0;
+    z-index: 9002;
+
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & #myLogo {
+        width: 35px;
+        height: 35px;
+    }
+}

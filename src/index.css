@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+  --quicksand: "Quicksand", sans-serif;
+  --plex: "IBM Plex Sans", sans-serif;
+  --background: #fff;
+  --primary: #025159;
+  --accent: #23828C;
+  --fontverybig: 50px;
+  --fontbig: 40px;
+  --fontmed: 24px;
+  --fontsmall: 16px;
+  font-family: var(--quicksand);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
