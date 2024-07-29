@@ -15,7 +15,10 @@ export default function App() {
   let [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => {
+      setLoading(false);
+      window.scrollTo(0, 0);
+    }, 2000);
   }, [])
 
   return (

@@ -1,7 +1,7 @@
 .footer {
     height: 300px;
     background-color: var(--primary);
-    box-shadow: 2px 1px 30px 10px rgba(4, 31, 53, 0.267);
+    /* box-shadow: 2px 1px 30px 10px rgba(4, 31, 53, 0.267); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,11 +22,11 @@
     }
 
     & .contact {
-        width: clamp(360px, 80%, 500px);
-        height: 170px;
+        width: clamp(360px, 80%, 600px);
+        height: 200px;
         background-color: #fff;
-        border-radius: 30px;
-        margin-top: -80px;
+        border-radius: 20px;
+        margin-top: -90px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -35,26 +35,8 @@
         font-weight: 600;
 
         & p {
-            font-size: 22px;
+            font-size: 24px;
             margin-top: 15px;
-        }
-
-        & button {
-            color: #000;
-            font-size: 18px;
-            border: 2px solid #000;
-            background-color: transparent;
-            width: 200px;
-            height: 40px;
-            border-radius: 100px;
-            cursor: pointer;
-            transition: 0.3s;
-
-            &:hover {
-                opacity: 0.8;
-                border: 2px solid lighten(#000, 50%);
-                transition: 0.2s;
-            }
         }
 
         & a {
@@ -63,8 +45,8 @@
             border: 2px solid #000;
             background-color: transparent;
             width: 200px;
-            height: 40px;
-            border-radius: 100px;
+            height: 43px;
+            border-radius: 5px;
             cursor: pointer;
             transition: 0.3s;
             text-decoration: none;
