@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import "./Introduction.css";
 import Particle from '../Particle/Particle'
 
@@ -23,12 +23,13 @@ export default function Introduction(props) {
                                     loop={Infinity}
                                     cursor
                                     cursorStyle='|'
-                                    typeSpeed={90}
+                                    typeSpeed={100}
                                     deleteSpeed={50}
                                     delaySpeed={1000}
                                 />
                             </span>
                         </h2>
+                        {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae magnam saepe facilis, quia consequuntur possimus beatae excepturi, exercitationem ea totam necessitatibus dolorem distinctio sint pariatur perferendis at tenetur illum nulla?</p> */}
                     </div>
                     <div className="illustration">
                         <DotLottieReact

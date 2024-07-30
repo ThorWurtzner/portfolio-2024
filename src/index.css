@@ -10,11 +10,28 @@
   --fontbig: 40px;
   --fontmed: 24px;
   --fontsmall: 16px;
+  --edgepadding: 0 30px;
   font-family: var(--quicksand);
+}
+
+@media screen and (min-width: 800px) {
+  :root {
+    --edgepadding: 0 60px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  :root {
+    --edgepadding: 0 120px;
+  }
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+img {
+  max-width: 100%;
 }

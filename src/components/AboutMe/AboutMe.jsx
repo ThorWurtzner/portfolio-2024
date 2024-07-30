@@ -1,12 +1,16 @@
 import React from 'react'
 import "./AboutMe.css";
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 export default function AboutMe(props) {
     
 
     return (
-        <div className="aboutMe">
-            <h2>- About Me -----------------------</h2>
-        </div>
+        <>
+            <SectionTitle title="ABOUT ME." />
+            <div className="aboutMe">
+
+            </div>
+        </>
     )
 }

@@ -1,9 +1,5 @@
 
-.blog {
+.projects {
     padding: var(--edgepadding);
     margin-bottom: 200px;
-
-    & p {
-        margin-bottom: 50px;
-    }
 }

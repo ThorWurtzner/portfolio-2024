@@ -4,11 +4,12 @@ import Blog from './components/Blog/Blog'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Introduction from './components/Introduction/Introduction'
-import MyWork from './components/MyWork/MyWork'
+import Skills from './components/Skills/Skills'
 
 import {useEffect, useState } from 'react'
 
 import BarLoader from "react-spinners/BarLoader";
+import Projects from './components/Projects/Projects'
 
 export default function App() {
 
@@ -30,9 +31,10 @@ export default function App() {
       )}
 
       <div className={`content ${loading ? 'hidden' : 'fade-in'}`}>
-        <Header />
+        {/* <Header /> */}
         <Introduction />
-        <MyWork />
+        <Skills />
+        <Projects />
         <Blog />
         <AboutMe />
         <Footer />
