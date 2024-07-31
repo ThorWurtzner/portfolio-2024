@@ -10,9 +10,10 @@ export default function Projects(props) {
         <>
             <SectionTitle title="PROJECTS." />
             <div className="projects">
-                {/* <Dracanvas /> */}
+                <Dracanvas />
 
-                
+                <div className="cellular"></div>
+                <p>Resten</p>
             </div>
         </>
     )

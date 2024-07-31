@@ -31,11 +31,11 @@ export default function App() {
       )}
 
       <div className={`content ${loading ? 'hidden' : 'fade-in'}`}>
-        {/* <Header /> */}
+        <Header />
         <Introduction />
-        <Skills />
-        <Projects />
         <Blog />
+        <Projects />
+        <Skills />
         <AboutMe />
         <Footer />
       </div>

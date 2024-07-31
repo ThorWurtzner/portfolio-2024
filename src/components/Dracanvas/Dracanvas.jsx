@@ -6,6 +6,7 @@ export default function Dracanvas(props) {
 
     return (
         <div className='dracanvasShowcase'>
+            <p className='projectNumber'>1.</p>
             <div className='dracanvasShowcase__innerContent'>
                 <div className='dracanvasShowcase__innerContent__title'>
                     <img className="dracanvasShowcase__innerContent__code" src='/images/dracanvas/dracanvasCode.png' alt='dracanvasCode' />
@@ -20,13 +21,15 @@ export default function Dracanvas(props) {
                 </div>
                 <p className='dracanvasShowcase__innerContent__text'>
                 My magnum opus. A project that has grown to wild proportions, and undoubtedly the one I am most proud of. 
-                It runs through a proxy to circumvent CORS, breaks several of the academy's rules - and has essentially become the ugliest codebase I have ever seen. 
-                But it is mine, created without help—since no help can be found for the monster of an application that Dracanvas (Dracula theme, Canvas - get it?) has become.
+                I kept getting annoyed by how needlessly convuluted it was to access the relevant lecture information for each subject, so I decided to fix that.
+                <br/>
+                It runs through a proxy to circumvent CORS, breaks several of the academy's rules - and has essentially become the most patchwork codebase I have ever seen. 
+                But it is mine, created without help, since no help can be found for the monster of an application that Dracanvas (Dracula theme, Canvas - get it?) has become.
                     <br/>
                     <br/>
-                    Each line of code is a testament to my journey through growing as a Software Developer. The countless hours spent debugging in the dead of night, 
-                    and the thrill of overcoming one impossible hurdle after another. <br/>
                     Despite its convoluted structure and labyrinthine logic, it stands as a beacon of personal achievement.
+                    <br/>
+                    With time, and without upkeep, it will sadly break - and because of the questionable rulebreaking (and me repeatably accidentally pushing my API keys - whoops), the code will be kept private for now, but contact me if there's an interest.
                 </p>
             </div>
             <div className='dracanvasShowcase__mobileWrapper'>
