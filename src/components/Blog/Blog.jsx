@@ -22,7 +22,7 @@ export default function Blog(props) {
 
     return (
         <>
-            <SectionTitle title="BLOG." />
+            <SectionTitle title="BLOG." id="blog" />
             <div className="blog">
                 <div className='blogIntroWrapper'>
                     <h3 className='blogIntro'>I love exploring various aspects of software development and staying up-to-date with the latest weird trends. My blog features a collection of posts where I share what I've learned, from tips to interesting tech discoveries. 
@@ -32,8 +32,6 @@ export default function Blog(props) {
                         <DotLottieReact
                             src="https://lottie.host/503dff86-4755-497e-b4da-5e4545412908/MPUBReCqZa.json" // https://lottie.host/02e4eadd-f162-4103-a8e6-b4a2a202554f/1zZGK0puBG.json
                             loop
-                            width={500}
-                            height={700}
                             autoplay
                         />
                     </div>

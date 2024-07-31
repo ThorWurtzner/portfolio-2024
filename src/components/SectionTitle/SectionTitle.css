@@ -11,6 +11,8 @@
     flex-grow: 1;
 
     padding: var(--edgepadding);
+
+    scroll-margin-top: 90px;
 }
 
 .sectionTitle::before, .sectionTitle::after {

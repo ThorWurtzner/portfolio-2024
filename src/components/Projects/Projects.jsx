@@ -8,7 +8,7 @@ export default function Projects(props) {
 
     return (
         <>
-            <SectionTitle title="PROJECTS." />
+            <SectionTitle title="PROJECTS." id="projects" />
             <div className="projects">
                 <Dracanvas />
 

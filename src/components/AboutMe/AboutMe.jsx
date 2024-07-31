@@ -7,7 +7,7 @@ export default function AboutMe(props) {
 
     return (
         <>
-            <SectionTitle title="ABOUT ME." />
+            <SectionTitle title="ABOUT ME." id="aboutMe" />
             <div className="aboutMe">
 
             </div>

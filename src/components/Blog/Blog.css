@@ -25,14 +25,16 @@
 
 .blogIllustration {
     visibility: hidden;
+    position: absolute;
     /* height: 1px; */
-    width: 1px;
+    /* width: 1px; */
 }
 
 .blogPosts {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+    margin-bottom: 60px;
 }
 
 @media screen and (min-width: 800px) {
@@ -55,6 +57,7 @@
 
     .blogIllustration {
         visibility: visible;
+        position: relative;
         height: 350px;
         width: 400px;
         margin-top: -30px;

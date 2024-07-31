@@ -7,7 +7,7 @@ export default function MySkills(props) {
 
     return (
         <>
-            <SectionTitle title="SKILLS." />
+            <SectionTitle title="SKILLS." id="skills" />
             <div className="skills">
                 
             </div>

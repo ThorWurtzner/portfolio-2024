@@ -6,7 +6,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 export default function Footer() {
 
     return (
-        <footer className='footer'>
+        <footer className='footer' id='contact'>
 
             <DotLottieReact className='contactIllustration'
                 src="https://lottie.host/950d51a2-1913-4b5b-ac85-643421549d41/CBryhjGEGm.lottie"

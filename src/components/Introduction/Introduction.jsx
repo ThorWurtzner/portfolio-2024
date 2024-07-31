@@ -9,7 +9,7 @@ export default function Introduction(props) {
     
     return (
         <>
-            <div className="introductionWrapper">
+            <div className="introductionWrapper" id='home'>
                 <Particle id="tsparticles" />
 
                 <div className="introductionContent">
