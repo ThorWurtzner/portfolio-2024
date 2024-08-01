@@ -36,8 +36,6 @@ export default function Dracanvas(props) {
                     But it is mine, created without help, since no help can be found for the monster of an application that Dracanvas (Dracula theme, Canvas - get it?) has become.
                         <br/>
                         <br/>
-                        Despite its convoluted structure and labyrinthine logic, it stands as a beacon of personal achievement.
-                        <br/>
                         With time, and without upkeep, it will sadly break - and because of the questionable rulebreaking (and me repeatably accidentally pushing my API keys - whoops), the code will be kept private for now, but contact me if there's an interest.
                     </p>
                 </Fade>

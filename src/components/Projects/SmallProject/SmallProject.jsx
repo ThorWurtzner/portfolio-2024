@@ -21,9 +21,9 @@ export default function SmallProject({img, title, description, tags, codeLink, w
                 }
             </div>
             <div className="projectLinks">
-                <a href={codeLink} target='_blank'>Code</a>
-                <p>|</p>
-                <a href={websiteLink} target='_blank'>Website</a>
+                { codeLink != "" ? <a href={codeLink} target='_blank'>Code</a> : <a href="#"></a> }
+                { codeLink != "" ? <p>|</p> : <p></p> }
+                { websiteLink != "" ? <a href={websiteLink} target='_blank'>Website</a> : <a href=""></a> }
             </div>
         </div>
     )

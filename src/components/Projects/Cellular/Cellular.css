@@ -1,22 +1,3 @@
-
-
-.cellular {
-    margin-top: 30px;
-    background: linear-gradient(to top, rgb(170, 138, 81), rgb(88, 55, 17));
-    height: 800px;
-    border-radius: 20px;
-    /* box-shadow: rgba(149, 157, 165, 0.788) 0px 4px 16px; */
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    position: relative;
-
-    & a {
-        font-size: 18px;
-        color: #fff;
-    }
-}
-
 .projectNumber {
     color: #fff;
     font-family: var(--plex);
@@ -27,9 +8,231 @@
     text-shadow: 1px 2px 10px var(--primary);
 }
 
+
+.cellular {
+    margin-top: 60px;
+    background: linear-gradient(to top, rgb(170, 138, 81), rgb(88, 55, 17));
+    border-radius: 20px;
+    /* box-shadow: rgba(149, 157, 165, 0.788) 0px 4px 16px; */
+    position: relative;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 60px 10% 80px 10%;
+}
+
+.cellularWrapper {
+    & h3 {
+        font-size: 60px;
+        font-family: var(--plex);
+        letter-spacing: 30px;
+        color: #CAFF59;
+        text-shadow: 1px 1px 4px #000;
+        text-align: center;
+    }
+
+    & .cellularIntro {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+        margin-top: 30px;
+
+        & div {
+            width: 100% !important;
+        }
+
+        & .lizardImgWrapper {
+            width: 100%;
+            /* margin-right: 50px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & .imgDesc {
+                width: 700px;
+            }
+            
+            & .lizardImg {
+                border: 3px ridge black;
+                object-fit: cover;
+                border-radius: 20px;
+                width: 700px;
+                height: 100px;
+            }
+
+            & p {
+                color: #ffffffa6;
+                font-size: 12px;
+                margin-top: 0px;
+                align-self: flex-start;
+            }
+        }
+
+        & p {
+            color: #fff;
+            /* width: 60%; */
+            margin-top: 20px;
+
+            & a {
+                display: block;
+                width: fit-content;
+                color: #e9ffd8;
+                font-weight: 500;
+                margin-top: 15px;
+            }
+        }
+    }
+
+}
+
+.cellularVideos {
+    display: flex;
+    
+    & .gameOfLifeSection {
+        width: 100%;
+        margin-right: 50px;
+
+        .golVideo {
+            /* width: 100%; */
+            height: 290px;
+            border-radius: 10px;
+        }
+        
+    }
+    
+    & .sandSection {
+        width: 100%;
+        
+        & .sandVideo {
+            object-fit: cover;
+            object-position: bottom;
+            width: 100%;
+            height: 290px;
+            border-radius: 30px;
+            
+            /* margin-bottom: 10px; */
+        }
+        
+    }
+    
+    & h4 {
+        font-size: 40px;
+        font-family: var(--plex);
+        color: #CAFF59;
+        text-shadow: 1px 1px 4px #000;
+    }
+
+    & .videoDescription {
+        color: #fff;
+        min-height: 105px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    & .simLinks {
+        display: flex;
+        margin-top: 8px;
+        
+        & a {
+            color: #e9ffd8;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px #000;
+        }
+        
+        & p {
+            width: fit-content;
+            margin: 0 10px;
+            color: #fff;
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .cellularWrapper h3 {
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cellularWrapper h3 {
+        font-size: 30px !important;
+        letter-spacing: 25px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .cellularVideos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgDesc {
+        width: 100% !important;
+    }
+
+    .gameOfLifeSection {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .golVideo {
+        height: 350px !important;
+    }
+    
+
+    .sandSection {
+        width: 100% !important;
+        margin-top: 40px;
+    }
+
+    .cellularIntro {
+        flex-direction: column;
+        align-items: center;
+
+        & p {
+            width: 100% !important;
+        }
+    }
+
+    .videoDescription {
+        min-height: 0 !important;
+    }
+
+    .lizardImgWrapper {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+    }
+
+    .lizardImg {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .cellular {
+        padding: 60px 15% 80px 15% !important;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .cellular {
+        padding: 60px 20% 80px 20% !important;
+    }
+}
+
+
+
 @media screen and (max-width: 800px) {
     .projectNumber {
         top: -70px !important;
         left: 20px !important;
+    }
+
+    .golVideo {
+        height: 100% !important;
+        width: 100%;
     }
 }

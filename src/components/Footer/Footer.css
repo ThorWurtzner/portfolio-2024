@@ -111,3 +111,9 @@
         width: clamp(340px, 80%, 800px);
     }
 }
+
+@media screen and (max-width: 400px) {
+    .contactIllustration {
+        width: 350px !important;
+    }
+}
