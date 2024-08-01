@@ -1,0 +1,35 @@
+
+
+.cellular {
+    margin-top: 30px;
+    background: linear-gradient(to top, rgb(170, 138, 81), rgb(88, 55, 17));
+    height: 800px;
+    border-radius: 20px;
+    /* box-shadow: rgba(149, 157, 165, 0.788) 0px 4px 16px; */
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+
+    & a {
+        font-size: 18px;
+        color: #fff;
+    }
+}
+
+.projectNumber {
+    color: #fff;
+    font-family: var(--plex);
+    font-size: 100px;
+    position: absolute;
+    top: -60px;
+    left: -30px;
+    text-shadow: 1px 2px 10px var(--primary);
+}
+
+@media screen and (max-width: 800px) {
+    .projectNumber {
+        top: -70px !important;
+        left: 20px !important;
+    }
+}

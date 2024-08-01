@@ -22,7 +22,7 @@
     position: absolute;
     top: -60px;
     left: -30px;
-    text-shadow: 1px 2px 10px rgb(0, 0, 0);
+    text-shadow: 1px 2px 10px var(--primary);
 }
 
 .dracanvasShowcase__innerContent {
@@ -199,8 +199,8 @@
 
 @media screen and (max-width: 800px) {
     .projectNumber {
-        top: -70px;
-        left: 20px;
+        top: -70px !important;
+        left: 20px !important;
     }
 
     .dracanvasShowcase {

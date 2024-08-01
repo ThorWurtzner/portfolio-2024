@@ -31,7 +31,7 @@ export default function App() {
       )}
 
       <div className={`content ${loading ? 'hidden' : 'fade-in'}`}>
-        <Header />
+        {/* <Header /> */}
         <Introduction />
         <Blog />
         <Projects />

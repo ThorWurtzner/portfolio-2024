@@ -43,7 +43,7 @@ export default function Dracanvas(props) {
                 </Fade>
             </div>
             <div className='dracanvasShowcase__mobileWrapper'>
-                <Fade direction='up' duration={1200}>
+                <Fade direction='up' duration={1000}>
                     <img className="dracanvasShowcase__mobileWrapper__picture" src='/images/dracanvas/dracanvasMobiles.png' alt='dracanvas' />
                 </Fade>
             </div>
