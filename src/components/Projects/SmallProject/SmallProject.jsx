@@ -16,6 +16,8 @@ export default function SmallProject({img, title, description, tags, codeLink, w
                         tag == "Sass" ? "#ED9EF4" :
                         tag == "Firebase" ? "#F6D38E" :
                         tag == "TDD" ? "#ABFFC3" :
+                        tag == "Java" ? "#F49192" :
+                        tag == "Python" ? "#FEB98F" :
                         "aliceblue"
                     }}>{tag}</div>)
                 }

@@ -26,15 +26,6 @@ export default function Projects(props) {
                         number={3}
                     />
                     <SmallProject 
-                        title={"Inventory Management System"}
-                        img={"/images/projectCards/sall.png"}
-                        description={"My 2nd semester exam, which involved creating an extensive report and application in collaberation with Sall Whisky Distillery."}
-                        tags={["Java", "Wireframing", "UML"]}
-                        codeLink={""}
-                        websiteLink={""}
-                        number={4}
-                    />
-                    <SmallProject 
                         title={"Pinger"}
                         img={"/images/projectCards/pinger.jpg"}
                         description={"A fullstack app with Firebase as the backend, and continual updates every time theres activity in the chat. Logging in with a Google account by Oauth - you're able to send live updated messages to other people signed in."}
@@ -42,6 +33,15 @@ export default function Projects(props) {
                         codeLink={"https://github.com/ThorWurtzner/Pinger/tree/master"}
                         websiteLink={"https://electron-chat-43469.firebaseapp.com"}
                         number={5}
+                    />
+                    <SmallProject 
+                        title={"Inventory Management System"}
+                        img={"/images/projectCards/sall.png"}
+                        description={"My 2nd semester exam, which involved creating an extensive report and application in collaberation with Sall Whisky Distillery."}
+                        tags={["Java", "Wireframing", "UML"]}
+                        codeLink={""}
+                        websiteLink={""}
+                        number={4}
                     />
                     <SmallProject 
                         title={"Matthew - The bot"}
