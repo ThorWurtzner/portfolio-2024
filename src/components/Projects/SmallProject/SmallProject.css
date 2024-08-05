@@ -1,9 +1,9 @@
 .projectNumberSmall {
     color: #fff;
     font-family: var(--plex);
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
-    top: -30px;
+    top: -10px;
     left: -5px;
     text-shadow: 0px 1px 10px #003f46;
 }
