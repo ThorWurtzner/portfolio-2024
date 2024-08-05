@@ -20,20 +20,20 @@ export default function Skills(props) {
                         />
                     </div>
                     <div className='skillsInner'>
-                        <img src="/images/skillLogos/java.svg" alt="logo" />
-                        <img src="/images/skillLogos/cSharp.svg" alt="logo" />
-                        <img src="/images/skillLogos/node.svg" alt="logo" />
-                        <img src="/images/skillLogos/sql.svg" alt="logo" />
-                        <img src="/images/skillLogos/python.svg" alt="logo" />
-                        <img src="/images/skillLogos/js.svg" alt="logo" />
-                        <img src="/images/skillLogos/react.svg" alt="logo" />
-                        <img src="/images/skillLogos/html.svg" alt="logo" />
-                        <img src="/images/skillLogos/css.svg" alt="logo" />
-                        <img src="/images/skillLogos/sass.svg" alt="logo" />
-                        <img src="/images/skillLogos/figma.svg" alt="logo" />
-                        <img src="/images/skillLogos/balsamiq.png" alt="logo" />
-                        <img src="/images/skillLogos/vp.png" alt="logo" />
-                        <img src="/images/skillLogos/git.svg" alt="logo" />
+                        <img src="/images/skillLogos/java.svg" alt="Java" title='Java' />
+                        <img src="/images/skillLogos/cSharp.svg" alt="C#" title='C#' />
+                        <img src="/images/skillLogos/node.svg" alt="NodeJS" title='NodeJS' />
+                        <img src="/images/skillLogos/sql.svg" alt="MS SQL Server" title='MS SQL Server' />
+                        <img src="/images/skillLogos/python.svg" alt="Python" title='Python' />
+                        <img src="/images/skillLogos/js.svg" alt="Javascript" title='Javascript' />
+                        <img src="/images/skillLogos/react.svg" alt="React" title='React' />
+                        <img src="/images/skillLogos/html.svg" alt="HTML" title='HTML' />
+                        <img src="/images/skillLogos/css.svg" alt="CSS" title='CSS' />
+                        <img src="/images/skillLogos/sass.svg" alt="Sass" title='Sass' />
+                        <img src="/images/skillLogos/figma.svg" alt="Figma" title='Figma' />
+                        <img src="/images/skillLogos/balsamiq.png" alt="Balsamiq" title='Balsamiq' />
+                        <img src="/images/skillLogos/vp.png" alt="Visual Paradigm" title='Visual Paradigm' />
+                        <img src="/images/skillLogos/git.svg" alt="Git" title='Git' />
                     </div>
                 </section>
             </div>

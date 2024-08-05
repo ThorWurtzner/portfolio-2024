@@ -8,19 +8,19 @@ export default function Footer() {
     return (
         <footer className='footer' id='contact'>
 
-            <DotLottieReact className='contactIllustration'
-                src="https://lottie.host/950d51a2-1913-4b5b-ac85-643421549d41/CBryhjGEGm.lottie"
-                loop
-                autoplay
-            />
-            {/* <img className="sittingPenguin" src="/images/sittingPenguin.png" alt="penguin" /> */}
-
-            <div className='contact'>
+            {/* <div className='contact'>
+                <DotLottieReact className='contactIllustration'
+                    // src="https://lottie.host/950d51a2-1913-4b5b-ac85-643421549d41/CBryhjGEGm.lottie"
+                    // src="https://lottie.host/44021df0-90c6-47b0-9a24-f73cecb18ad2/xXobAS00ZY.json"
+                    src="https://lottie.host/793dab06-660b-4ec8-ae7d-f17c77dad12c/Y1siqmXYgg.json"
+                    loop
+                    autoplay
+                />
                 <p>Wanna get in contact?</p>
                 <a href="mailto:thorwurtzner@gmail.com">Write me a mail</a>
-            </div>
+            </div> */}
 
-            <div className='socialMedia'>
+            {/* <div className='socialMedia'>
                 <a href="https://github.com/ThorWurtzner" target="_blank">
                     <img src='/images/icons/github.png' alt='icon' />
                 </a>
@@ -33,7 +33,7 @@ export default function Footer() {
                 <a href="https://www.behance.net/thorwrtzner" target="_blank">
                     <img src='/images/icons/behance.png' alt='icon' />
                 </a>
-            </div>
+            </div> */}
 
             <div className="credit">
                 <p>Designed loosely in Figma, and built in React</p>

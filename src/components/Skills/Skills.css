@@ -25,6 +25,11 @@
     & img {
         height: 70px;
     }
+
+    & img:hover {
+        opacity: 0.6;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -69,7 +74,7 @@
 @media screen and (min-width: 1300px) {
     
     .skillsIllustration {
-        margin-left: -200px;
+        /* margin-left: -200px; */
         height: 400px;
         width: 700px;
     }

@@ -36,7 +36,7 @@ export default function App() {
         <Blog />
         <Projects />
         <Skills />
-        {/* <AboutMe /> */}
+        <AboutMe />
         <Footer />
       </div>
     </>

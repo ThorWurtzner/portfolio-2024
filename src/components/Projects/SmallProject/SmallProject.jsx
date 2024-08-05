@@ -7,7 +7,9 @@ export default function SmallProject({img, title, description, tags, codeLink, w
         <div className="smallProject">
             <p className='projectNumberSmall'>{number}.</p>
             <img src={img} />
-            <h3>{title}</h3>
+            <div className='smallProjectTitleContainer'>
+                <h3 className='smallProjectTitle'>{title}</h3>
+            </div>
             <p className='projectDescription'>{description}</p>
             <div className="projectTags">
                 {
@@ -18,13 +20,14 @@ export default function SmallProject({img, title, description, tags, codeLink, w
                         tag == "TDD" ? "#ABFFC3" :
                         tag == "Java" ? "#F49192" :
                         tag == "Python" ? "#FEB98F" :
+                        tag == "Spotify" ? "lightgreen" :
                         "aliceblue"
                     }}>{tag}</div>)
                 }
             </div>
             <div className="projectLinks">
                 { codeLink != "" ? <a href={codeLink} target='_blank'>Code</a> : <a href="#"></a> }
-                { codeLink != "" ? <p>|</p> : <p></p> }
+                { codeLink == "" || websiteLink == "" ? <></> : <p>|</p> }
                 { websiteLink != "" ? <a href={websiteLink} target='_blank'>Website</a> : <a href=""></a> }
             </div>
         </div>
