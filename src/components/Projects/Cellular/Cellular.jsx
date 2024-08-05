@@ -26,7 +26,7 @@ export default function Cellular(props) {
                         <p> A subject I've been quite interested in, and a beautiful blend of software, biology and math - showcasing how complexity can arise from simplicity. 
                             At their core, they are computational models that mimic the way cells interact in nature, each with a specific state. Every tick of the clock, these cells evolve based on simple rules that take into account the states of their neighbors. 
                             Despite their simplicity, cellular automata can generate astonishingly intricate patterns and behaviors.
-                            <a href="#blog">I’ve written a blog post about it here</a>
+                            <a href="https://dev.to/thorwurtzner/cellular-automata-wonders-of-emergent-patterns-from-biology-to-computer-science-156f">I’ve written a blog post about it here</a>
                         </p>
                     </Fade>
                 </div>

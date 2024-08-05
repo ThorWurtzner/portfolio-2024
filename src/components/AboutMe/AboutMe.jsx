@@ -5,18 +5,7 @@ import "./AboutMe.css";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function AboutMe(props) {
-    const [lightboxOpen, setLightboxOpen] = useState(false);
-    const [lightboxImgSrc, setLightboxImgSrc] = useState('');
-  
-    const openLightbox = (src) => {
-      setLightboxImgSrc(src);
-      setLightboxOpen(true);
-    };
-  
-    const closeLightbox = () => {
-      setLightboxOpen(false);
-      setLightboxImgSrc('');
-    };
+
 
     return (
         <>
@@ -29,13 +18,13 @@ export default function AboutMe(props) {
                         <div className='aboutMe__portraitWrapper__description'>
                             <h2>Thor Hinz Würtzner</h2>
                             <div>
-                                <p>- Web Developer -</p>
-                                <p>Roskilde Technical College</p>
-                            </div>
-                            <div>
-                                <p className='aboutMe__portraitWrapper__description__studying'>Currently studying:</p>
+                                {/* <p className='aboutMe__portraitWrapper__description__studying'>Currently studying:</p> */}
                                 <p>- Datamatiker -</p>
                                 <p>Business Academy Aarhus</p>
+                            </div>
+                            <div>
+                                <p>- Web Developer -</p>
+                                <p>Roskilde Technical College</p>
                             </div>
                         </div>
                         <div className='socialMedia'>

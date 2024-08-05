@@ -53,14 +53,6 @@ export default function Blog(props) {
                                     reactions={post.public_reactions_count}
                                 />)
                         }
-                        <Post 
-                            title={"Cellular Automata - Wonders of Emergent Patterns from Biology to Computer Science"}
-                            img={"https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpc1ikp4lky2k52pbj2wg.png"} 
-                            tags={["cells", "math", "biology"]}
-                            description={"It doesn't matter how beautiful your site is, if a push with some faulty code can crumble it..."}
-                            url={"post.url"}
-                            reactions={"28"}
-                        />
                     </div>
                 </div>
             </div>
