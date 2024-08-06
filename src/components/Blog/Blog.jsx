@@ -14,7 +14,6 @@ export default function Blog(props) {
         fetch("https://dev.to/api/articles?username=thorwurtzner")
             .then(res => res.json())
             .then(data => {
-                console.log(data)
                 setPosts(data)
             })
 
