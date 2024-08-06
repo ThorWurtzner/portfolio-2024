@@ -87,8 +87,30 @@
     }
 }
 
+& .cvBtn {
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    width: 110px;
+    height: 37px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: grid;
+    place-content: center;
+    margin-top: 10px;
+    /* place-self: start; */
+
+    &:hover {
+        background-color: #eeeeee52;
+        transition: 0.2s;
+    }
+}
+
 .contact {
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: var(--primary);
     display: flex;
     flex-direction: column;

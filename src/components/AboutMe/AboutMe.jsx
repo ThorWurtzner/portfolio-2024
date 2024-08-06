@@ -27,6 +27,7 @@ export default function AboutMe(props) {
                                 <p>Roskilde Technical College</p>
                             </div>
                         </div>
+
                         <div className='socialMedia'>
                             <a href="https://github.com/ThorWurtzner" target="_blank">
                                 <img src='/images/icons/github.png' alt='icon' />
@@ -48,6 +49,7 @@ export default function AboutMe(props) {
                         <p>
                         I am driven by a genuine desire to contribute on work that is crucial for our society to function. As I near the completion of my Datamatiker education, I am eager to apply my skills and knowledge in software development to create these meaningful solutions. <br/><br/> My passion lies in leveraging technology to solve real-world problems, improve efficiency, and enhance user experiences. <br/> I am excited about the prospect of collaborating with like-minded professionals and organizations to bring innovative ideas to life.
                         </p>
+                        <a className='cvBtn' href="https://drive.google.com/file/d/1kxEeNor0MYbEldm_tQYVWLBiCKjkHDvh/view?usp=sharing" target='_blank'>My CV</a>
 
                         <div className="contact">
                             <p>Wanna get in contact?</p>
@@ -63,7 +65,7 @@ export default function AboutMe(props) {
 
                         {/* <h2>Some of my other illustrations and designs:</h2>
                         <div className='aboutMe__illustrations'>
-                            <img className='aboutMe__illustrations__img' src='/images/illustrations/town2.png' alt='illustration' onClick={() => openLightbox('/images/illustrations/town2.png')} />
+                        <img className='aboutMe__illustrations__img' src='/images/illustrations/town2.png' alt='illustration' onClick={() => openLightbox('/images/illustrations/town2.png')} />
                             <img className='aboutMe__illustrations__img' src='/images/illustrations/copenhagen.png' alt='illustration' onClick={() => openLightbox('/images/illustrations/copenhagen.png')} />
                             <img className='aboutMe__illustrations__img' src='/images/illustrations/spotify1.png' alt='illustration' onClick={() => openLightbox('/images/illustrations/spotify1.png')} />
                             <img className='aboutMe__illustrations__img' src='/images/illustrations/spotify2.png' alt='illustration' onClick={() => openLightbox('/images/illustrations/spotify2.png')} />
