@@ -100,7 +100,7 @@
     text-decoration: none;
     display: grid;
     place-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
     /* place-self: start; */
 
     &:hover {
@@ -110,7 +110,7 @@
 }
 
 .contact {
-    margin-top: 20px;
+    margin-top: 25px;
     background-color: var(--primary);
     display: flex;
     flex-direction: column;
@@ -313,6 +313,11 @@
         & img {
             width: 35px;
         }
+    }
+
+    .cvBtn {
+        place-self: start;
+        margin-bottom: 7px;
     }
 
     .aboutMe__content__inner {
