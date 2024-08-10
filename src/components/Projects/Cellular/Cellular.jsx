@@ -31,7 +31,7 @@ export default function Cellular(props) {
                         </p>
                     </Fade>
                 </div>
-                <LazyLoad offset={200}>
+                <LazyLoad offset={600} once>
                     <div className="cellularVideos">
                         <div className="gameOfLifeSection">
                             <h4>Game of life</h4>
