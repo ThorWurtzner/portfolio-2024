@@ -27,7 +27,7 @@ export default function Cellular(props) {
                         <p> A subject I've been quite interested in, and a beautiful blend of software, biology and math - showcasing how complexity can arise from simplicity. 
                             At their core, they are computational models that mimic the way cells interact in nature, each with a specific state. Every tick of the clock, these cells evolve based on simple rules that take into account the states of their neighbors. 
                             Despite their simplicity, cellular automata can generate astonishingly intricate patterns and behaviors.
-                            <a href="https://dev.to/thorwurtzner/cellular-automata-wonders-of-emergent-patterns-from-biology-to-computer-science-156f">I’ve written a blog post about it here</a>
+                            <a href="https://dev.to/thorwurtzner/cellular-automata-wonders-of-emergent-patterns-from-biology-to-computer-science-156f" target='_blank'>I’ve written a blog post about it here</a>
                         </p>
                     </Fade>
                 </div>
@@ -41,9 +41,9 @@ export default function Cellular(props) {
                                 Your browser does not support the video tag.
                             </video>
                             <div className="simLinks">
-                                <a href="https://github.com/ThorWurtzner/game_of_life">Code</a>
+                                <a href="https://github.com/ThorWurtzner/game_of_life" target='_blank'>Code</a>
                                 <p>|</p>
-                                <a href="https://game-of-life-thorw.netlify.app">Try it yourself</a>
+                                <a href="https://game-of-life-thorw.netlify.app" target='_blank'>Try it yourself</a>
                             </div>
                         </div>
                         <div className="sandSection">
@@ -54,9 +54,9 @@ export default function Cellular(props) {
                                 Your browser does not support the video tag.
                             </video>
                             <div className="simLinks">
-                                <a href="https://github.com/ThorWurtzner/sand_simulator">Code</a>
+                                <a href="https://github.com/ThorWurtzner/sand_simulator" target='_blank'>Code</a>
                                 <p>|</p>
-                                <a href="https://sandsimulatorthorw.netlify.app">Try it yourself</a>
+                                <a href="https://sandsimulatorthorw.netlify.app" target='_blank'>Try it yourself</a>
                             </div>
                         </div>
                     </div>

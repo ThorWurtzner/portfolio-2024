@@ -100,7 +100,7 @@
     text-decoration: none;
     display: grid;
     place-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
     /* place-self: start; */
 
     &:hover {
