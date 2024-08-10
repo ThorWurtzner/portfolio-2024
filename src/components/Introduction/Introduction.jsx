@@ -1,4 +1,4 @@
- import React from 'react'
+ import React, {useEffect, useState} from 'react'
 import "./Introduction.css";
 import Particle from '../Particle/Particle'
 
@@ -6,6 +6,12 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { Typewriter } from 'react-simple-typewriter'
 
 export default function Introduction(props) {
+    let [loading, setLoading] = useState(true);
+    useEffect(() => {
+        setTimeout(() => {
+          setLoading(false);
+        }, 2000);
+      }, [])
     
     return (
         <>
@@ -18,15 +24,18 @@ export default function Introduction(props) {
                         <h2>
                             I develop&nbsp;
                             <span>
-                                <Typewriter
-                                    words={['back-end', 'front-end']}
-                                    loop={Infinity}
-                                    cursor
-                                    cursorStyle='|'
-                                    typeSpeed={100}
-                                    deleteSpeed={50}
-                                    delaySpeed={1000}
-                                />
+                                {
+                                    loading ? null : 
+                                    <Typewriter
+                                        words={['full-stack']}
+                                        loop={1}
+                                        cursor
+                                        cursorStyle='|'
+                                        typeSpeed={150}
+                                        deleteSpeed={50}
+                                        delaySpeed={2000}
+                                    />
+                                }
                             </span>
                         </h2>
                         {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae magnam saepe facilis, quia consequuntur possimus beatae excepturi, exercitationem ea totam necessitatibus dolorem distinctio sint pariatur perferendis at tenetur illum nulla?</p> */}
