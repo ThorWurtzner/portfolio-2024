@@ -34,7 +34,7 @@ export default function Particle(props) {
           "enable": false,
           "zIndex": 0
         },
-        fpsLimit: 120,
+        fpsLimit: 30,
         interactivity: {
           events: {
             onClick: {
@@ -62,7 +62,7 @@ export default function Particle(props) {
           },
           links: {
             color: "#01292e",
-            distance: 150,
+            distance: 200,
             enable: true,
             opacity: 0.5,
             width: 1,
@@ -74,14 +74,14 @@ export default function Particle(props) {
               default: "bounce",
             },
             random: false,
-            speed: 0.5,
+            speed: 0.7,
             straight: false,
           },
           number: {
             density: {
               enable: true,
             },
-            value: 100,
+            value: 50,
           },
           opacity: {
             value: 0.7,
