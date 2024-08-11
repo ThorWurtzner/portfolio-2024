@@ -2,7 +2,7 @@ import React from 'react'
 import "./Skills.css";
 import SectionTitle from '../SectionTitle/SectionTitle';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import LazyLoad from 'react-lazyload';
+// import LazyLoad from 'react-lazyload';
 
 export default function Skills(props) {
     
@@ -13,7 +13,7 @@ export default function Skills(props) {
             <div className='skills'>
                 <h3 className='skillsIntro'>While this site primarily showcases my front-end work, I'm also proficient in back-end development and relational databases. I enjoy creating both beautiful and efficient systems and take pride in seeing applications through the entire full-stack process.</h3>
                 <section>
-                    <LazyLoad offset={600} once>
+                    {/* <LazyLoad offset={600} once> */}
                         <div className='skillsIllustration'>
                             <DotLottieReact
                                 src="https://lottie.host/7034b011-ee55-4613-afba-02543b466b68/thmNpJXeIi.json"
@@ -21,7 +21,7 @@ export default function Skills(props) {
                                 autoplay
                             />
                         </div>
-                    </LazyLoad>
+                    {/* </LazyLoad> */}
                     <div className='skillsInner'>
                         <img src="/images/skillLogos/java.svg" alt="Java" title='Java' />
                         <img src="/images/skillLogos/cSharp.svg" alt="C#" title='C#' />

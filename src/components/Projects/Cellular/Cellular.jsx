@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Cellular.css";
 import { Fade } from 'react-awesome-reveal';
-import LazyLoad from 'react-lazyload';
+// import LazyLoad from 'react-lazyload';
 
 export default function Cellular(props) {
     
@@ -31,7 +31,7 @@ export default function Cellular(props) {
                         </p>
                     </Fade>
                 </div>
-                <LazyLoad offset={600} once>
+                {/* <LazyLoad offset={600} once> */}
                     <div className="cellularVideos">
                         <div className="gameOfLifeSection">
                             <h4>Game of life</h4>
@@ -60,7 +60,7 @@ export default function Cellular(props) {
                             </div>
                         </div>
                     </div>
-                </LazyLoad>
+                {/* </LazyLoad> */}
             </div>
         </div>
     )
