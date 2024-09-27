@@ -11,8 +11,8 @@ export default function Blog(props) {
 
     const tempImgs = [
         "/images/blog/cel.avif",
-        "/images/blog/lab.avif",
         "/images/blog/stor.avif",
+        "/images/blog/lab.avif",
     ]
 
     useEffect(() => {

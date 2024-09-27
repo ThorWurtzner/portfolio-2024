@@ -34,7 +34,7 @@ export default function Particle(props) {
           "enable": false,
           "zIndex": 0
         },
-        fpsLimit: 30,
+        fpsLimit: 24,
         interactivity: {
           events: {
             onClick: {
@@ -64,7 +64,7 @@ export default function Particle(props) {
             color: "#01292e",
             distance: 200,
             enable: true,
-            opacity: 0.5,
+            opacity: 1,
             width: 1,
           },
           move: {
@@ -81,10 +81,10 @@ export default function Particle(props) {
             density: {
               enable: true,
             },
-            value: 50,
+            value: 30,
           },
           opacity: {
-            value: 0.7,
+            value: 1,
           },
           shape: {
             type: "circle",
