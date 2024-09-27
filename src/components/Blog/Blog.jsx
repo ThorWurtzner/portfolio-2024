@@ -9,6 +9,12 @@ export default function Blog(props) {
 
     let [posts, setPosts] = useState();
 
+    const tempImgs = [
+        "/images/blog/cel.avif",
+        "/images/blog/lab.avif",
+        "/images/blog/stor.avif",
+    ]
+
     useEffect(() => {
 
         fetch("https://dev.to/api/articles?username=thorwurtzner")
@@ -42,11 +48,11 @@ export default function Blog(props) {
                 <div className='blogWrapper'>
                     <div className="blogPosts">
                         {
-                            posts && posts.map(post => 
+                            posts && posts.map((post, i) => 
                                 <Post
                                     key={post.title} 
                                     title={post.title}
-                                    img={post.cover_image} 
+                                    img={tempImgs[i]} 
                                     tags={post.tag_list}
                                     description={post.description}
                                     url={post.url}
