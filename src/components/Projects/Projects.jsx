@@ -86,7 +86,7 @@ export default function Projects(props) {
                         tags={["React", "TDD","Jest", "Sass"]}
                         codeLink={""}
                         websiteLink={"https://sports-app-landingpage.netlify.app/"}
-                        number={10}
+                        number={9}
                     />
                     <SmallProject 
                         title={"Philips Hue Spotify integration"}
@@ -95,7 +95,7 @@ export default function Projects(props) {
                         tags={["React", "Spotify","Hardware"]}
                         codeLink={"https://github.com/ThorWurtzner/hue-music"}
                         websiteLink={"https://hue-music.netlify.app"}
-                        number={11}
+                        number={10}
                     />
                 </div>
             </div>

@@ -23,6 +23,9 @@ export default function Skills(props) {
                         </div>
                     {/* </LazyLoad> */}
                     <div className='skillsInner'>
+                        <img src="/images/skillLogos/firebase.svg" alt="Firebase" title='Firebase' />
+                        <img src='/images/skillLogos/laravel.svg' alt="Laravel" title='Laravel' />
+                        <img src="/images/skillLogos/php.svg" alt="PHP" title='PHP' />
                         <img src="/images/skillLogos/java.svg" alt="Java" title='Java' />
                         <img src="/images/skillLogos/cSharp.svg" alt="C#" title='C#' />
                         <img src="/images/skillLogos/node.svg" alt="NodeJS" title='NodeJS' />
