@@ -23,6 +23,7 @@ export default function Skills(props) {
                         </div>
                     {/* </LazyLoad> */}
                     <div className='skillsInner'>
+                        <img src="/images/skillLogos/googleCloud.png" alt="Google Cloud" title='Google Cloud' />
                         <img src="/images/skillLogos/firebase.svg" alt="Firebase" title='Firebase' />
                         <img src='/images/skillLogos/laravel.svg' alt="Laravel" title='Laravel' />
                         <img src="/images/skillLogos/php.svg" alt="PHP" title='PHP' />
@@ -33,11 +34,12 @@ export default function Skills(props) {
                         <img src="/images/skillLogos/python.svg" alt="Python" title='Python' />
                         <img src="/images/skillLogos/js.svg" alt="Javascript" title='Javascript' />
                         <img src="/images/skillLogos/react.svg" alt="React" title='React' />
+                        <img src="/images/skillLogos/vue.png" alt="Vue" title='Vue' />
                         <img src="/images/skillLogos/html.svg" alt="HTML" title='HTML' />
                         <img src="/images/skillLogos/css.svg" alt="CSS" title='CSS' />
                         <img src="/images/skillLogos/sass.svg" alt="Sass" title='Sass' />
                         <img src="/images/skillLogos/figma.svg" alt="Figma" title='Figma' />
-                        <img src="/images/skillLogos/balsamiq.png" alt="Balsamiq" title='Balsamiq' />
+                        {/* <img src="/images/skillLogos/balsamiq.png" alt="Balsamiq" title='Balsamiq' /> */}
                         <img src="/images/skillLogos/vp.png" alt="Visual Paradigm" title='Visual Paradigm' />
                         <img src="/images/skillLogos/git.svg" alt="Git" title='Git' />
                     </div>
