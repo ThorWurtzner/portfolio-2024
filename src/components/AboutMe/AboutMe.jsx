@@ -49,7 +49,7 @@ export default function AboutMe(props) {
                         <p>
                         I am driven by a genuine desire to contribute on work that is crucial for our society to function. As I near the completion of my Datamatiker education, I am eager to apply my skills and knowledge in software development to create these meaningful solutions. <br/><br/> My passion lies in leveraging technology to solve real-world problems, improve efficiency, and enhance user experiences. <br/> I am excited about the prospect of collaborating with like-minded professionals and organizations to bring innovative ideas to life.
                         </p>
-                        <a className='cvBtn' href="https://drive.google.com/file/d/1kxEeNor0MYbEldm_tQYVWLBiCKjkHDvh/view?usp=sharing" target='_blank'>My CV</a>
+                        <a className='cvBtn' href="#" target='_blank'>My CV</a>
 
                         <div className="contact">
                             <p>Wanna get in contact?</p>
